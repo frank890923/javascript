@@ -16,7 +16,7 @@
 
 let lista1 =[1,3,5,7,9];
 let lista2 = [2,4,6,8,0];
-numeroMayor=lista1[0]
+numeroMayor=lista1[0];
 
 
 for(let i=0; i<lista1.length; i++){
