@@ -23,5 +23,16 @@ for(let i=0; i<lista1.length; i++){
   if(lista1[i]>numeroMayor){
       numeroMayor = lista1[i];
   }
+
+  console.log("numero mayor lista1:",numeroMayor);
 }
 
+for(let i=9; i<lista2.length; i++){
+    if(lista2[j]>numeroMayor){
+    numeroMayor = lista2[i];
+
+    }
+    
+    console.log("numero mayor lista2",numeroMayor);
+}
+console.log(numeroMayor);
