@@ -39,24 +39,18 @@ let peligro = false;
 
 // funcion flecha  para verificar el estado de spiderman
 
-const spiderman = (v1,v2,v3,v4,peligro)=>{
+const spiderman = (peligro)=>{
     // comprabamos si  "spiderman esta en peligro"
 if(peligro== true){
     return'como decia el ${v1} ${v2} ${v4}';
 }else{
-
+    
     return 'como deci el  ${v1} ${v3}';
 }
 
 };
 
-let recordando = spiderman (v1,v2,v3,v4, peligro);
+let recordando = spiderman ( peligro);
 console.log(recordando);
 
-
-
-
-
-
-//
 
