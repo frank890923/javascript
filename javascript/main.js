@@ -70,3 +70,20 @@ boton2.addEventListener("click" ,() => {
 );
 
 
+
+const botonNombtre = document.createElement("button");
+botonNombtre.innerText ="nombre";
+botonNombtre.addEventListener("click",()=>{
+               let entrada =document.getElementById("name");
+               let valorEntrada =entrada.value;
+               console.log(valorEntrada);
+               if(valorEntrada.trim().length==0){
+
+                alert("No has escrito nada");
+               }else{
+                alert(`${valorEntrada}`);
+               }
+
+})
+
+document.body.appendChild(botonNombtre);
