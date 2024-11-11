@@ -3,10 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
-    <script src="JS/fetch.js"></script>
+    <script src="JS/main.js"></script>
+
+    <div class="container">
+        <h1>Info</h1>
+        <input type="text" id="pokemon-name" placeholder="escribe el nombre del pokemon">
+        <button onclick="fetchPokemon()">Atrapalos Ya!</button>
+        <div id="pokemom-info"></div>
+    </div>
 
 </body>
 </html>
