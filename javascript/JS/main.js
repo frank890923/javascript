@@ -1,5 +1,7 @@
 function  fetchPokemon(){
-    const nombrePokemon = document.getElementById("pokemon-name").value.toLowerCaser();
+    const nombrePokemon = document
+    .getElementById("pokemon-name")
+    .value.toLowerCase();
 
     if(nombrePokemon ===""){
         alert("por favor, ingrese el nombre del pokemon")
@@ -34,3 +36,4 @@ function displayPokemon(pokemon){
      <p><img src="${pokemon.sprites.front_default}" alt="${pokemon.name}"></p>
 `;
 }
+
